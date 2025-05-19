@@ -2,3 +2,6 @@
 wandb
 __pycache__
 .idea
+
+/green_block_reach
+pink_block_pick
