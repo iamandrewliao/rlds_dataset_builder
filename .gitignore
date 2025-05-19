@@ -4,4 +4,5 @@ __pycache__
 .idea
 
 /green_block_reach
-pink_block_pick
+/pink_block_pick
+/pick_green_into_bowl
