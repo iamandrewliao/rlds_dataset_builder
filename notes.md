@@ -5,3 +5,7 @@
 4. cd example_dataset
 5. transfer dataset and rename or soft link
 6. tfds build --overwrite
+
+
+# Todo
+1. fix visualization bug
