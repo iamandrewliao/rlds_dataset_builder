@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import wandb
 
 
-WANDB_ENTITY = 'hc-c'
+WANDB_ENTITY = 'andrewliao-university-of-minnesota'
 WANDB_PROJECT = 'vis_rlds'
 
 
