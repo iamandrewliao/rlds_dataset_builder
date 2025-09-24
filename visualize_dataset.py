@@ -52,7 +52,8 @@ actions, states = [], []
 for episode in tqdm.tqdm(ds.take(500)):
     for step in episode['steps']:
         actions.append(step['action'].numpy())
-        states.append(step['observation']['state'].numpy())
+        position = step['observation']['eef_pose']['position'].numpy()
+        states.append(position)
 actions = np.array(actions)
 states = np.array(states)
 action_mean = actions.mean(0)
